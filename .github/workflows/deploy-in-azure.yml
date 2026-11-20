@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch: # Allows you to trigger this manually from the Actions tab
 
-# Required so GitHub can request an OIDC token for Azure
+# Required so GitHub can request an OIDC token for Azure ...
 permissions:
   id-token: write
   contents: read
